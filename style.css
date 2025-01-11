@@ -28,6 +28,7 @@
     color: #006A50;
     font-weight: 700;
     border-radius: 10px;
+    cursor: pointer;
 }
 .btn-n:hover{
     background-color: #006A50;
@@ -57,6 +58,7 @@
     color: white;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 .btn-h:hover{
     background-color: white;
@@ -98,7 +100,6 @@ main{
 }
 .vision-p{
     font-size: 16px;
-    margin-right: 150px;
     padding-bottom: 10px;
 }
 .vision-con{
@@ -138,6 +139,7 @@ main{
     color: white;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 .btn-vis-1:hover{
     background-color: white;
@@ -153,6 +155,7 @@ main{
     color: white;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
     
 }
 .btn-vis-2:hover{
@@ -160,6 +163,7 @@ main{
     color: black;
     box-shadow: #0E0E0E;
     border:2px solid #09A15C;
+    
 }
 .btn-vis-3{
     width: 130px;
@@ -168,12 +172,14 @@ main{
     color: white;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 .btn-vis-3:hover{
     background-color: white;
     color: black;
     box-shadow: #0E0E0E;
     border:2px solid #FFC239;
+    
 }
 .vision-dis-1{
     padding-bottom: 50px;
@@ -196,7 +202,7 @@ main{
    margin-top: 50px;
 }
 .chalanges{
-    background: url(assets/quote-bg.png);
+    background: url(./assets/quote-bg.png);
     padding: 20px;
     background-repeat: no-repeat;
     margin-left: 20px;
@@ -218,13 +224,14 @@ main{
     
 }
 .Recent-con{
-    width: 2050px;
+    max-width: 2050px;
     height: 450px;
     box-shadow:0px 6px 50px 0px rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     display: flex;
     justify-content: space-around;
-   padding-top: 100px;
+     padding-top: 100px;
+     margin-top: 50px;
 
 }
 .recent-div>img {
@@ -240,14 +247,15 @@ main{
 }
 
 .box1{
-    margin-top: 50px;
-    width: 2050px;
+    
+    max-width: 2050px;
     height: 450px;
     box-shadow:0px 6px 50px 0px rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     display: flex;
     justify-content: space-around;
     padding-top: 100px;
+    margin-top: 50px;
 }
 .box-right>img{
     width: 550px;
@@ -262,4 +270,103 @@ main{
 }
 .box-left{
     /* padding-left: 100px; */
+}
+/* Donate news */
+.donate-div{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 40px 0 40px;
+    
+
+}
+.donate{
+    width: 250px;
+    height: 50px;
+    box-shadow:0px 6px 50px 0px rgba(14, 14, 14, 0.10);
+    text-align: center;
+    margin: 20px;
+    /* font-weight: 160px; */
+    font-size: 40px;
+    font-weight: bold ;
+    padding: 40px;
+    border-radius: 16px;
+
+}
+.dona{
+    display: flex;
+    justify-content: center;
+}
+.don {
+    background-color:#C6E4D6;
+}
+.donate:hover{
+    background-color: #006A50;
+    color: white;
+}
+.input{
+    width: 1300px;
+    height:20px;
+    padding: 40px 20px 40px 20px;
+    box-shadow:0px 6px 50px 0px rgba(14, 14, 14, 0.10);
+    border: none;
+    text-align: center;
+    font-size: large;
+    margin-top: 0px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+    
+    
+}
+.tk-btn{
+
+   margin: 0 900px 0 900px;
+   width: 151px;
+   height: 56px;
+   cursor: pointer;
+   
+   
+}
+/* Subscribe section */
+.sub{
+    max-width: 2050px;
+    height: 450px;
+    background-color:#C6E4D6 ;
+    border-radius: 16px;
+    margin: 50px;
+
+}
+.sub-p{
+    margin-left: 20px;
+    
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.input-2 {
+    width: 500px; /* Adjust width as needed */
+    height: 50px;
+    border: 1px solid #ccc;
+    font-size: large;
+    border-radius: 8px 0 0 8px;
+    padding-left: 20px;
+    outline: none;
+}
+
+.sub-btn {
+    height: 50px;
+    background-color: #007b5e;
+    color: white;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    font-size: large;
+    
+}
+.subp{
+    text-align: center;
 }
